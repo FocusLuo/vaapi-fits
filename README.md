@@ -1,0 +1,2 @@
+# vaapi-fits
+The VA-API Functional Integration Test Suite (VAAPI-FITS) is a configurable test suite for VA-API-based media software/middleware.  It is written in Python and currently provides tests for hardware accelerated Encode, Decode and VPP video pipelines for gstreamer and ffmpeg. It can be easily extended to support additional VA-API-based software/middleware. The tests execute the video pipelines and validate their outputs using common image and video metrics such as MD5, SSIM and PSNR.
